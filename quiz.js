@@ -12,5 +12,5 @@ feedback.textContent("Correct! Well done.")
 }
 }
 const submitAnswerButton = document.getElementById("submit-answer")
-submitAnswerButton.addEventsListener("click", checkAnswer)
+submitAnswerButton.addEventListener("click", checkAnswer)
 
